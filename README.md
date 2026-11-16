@@ -110,7 +110,7 @@ Run on 2026-11-16: 25 jobs in 6.1 seconds. First twelve (full file: [sample-sear
 | Cisco | Solution Test Engineer - 8+yrs - Python, PyATS, Switching/Routing/Data | Bangalore, India | 2026-11-16 |
 | Cisco | Solution Test Engineer - 5+yrs - Python, PyATS, Switching/Routing/Data | Bangalore, India | 2026-11-16 |
 
-A keyword matches when all of its words are in the title, in any order, which is why "Engineer, Data Centers" is in the list. About half of the Workday employers show their display name; the rest show their Workday id (`jll`, `geico`).
+A keyword matches when all of its words are in the title, in any order, which is why "Engineer, Data Centers" is in the list. Put the words in quotes inside the entry (`"\"data engineer\""`) to match the exact phrase. About half of the Workday employers show their display name; the rest show their Workday id (`jll`, `geico`).
 
 ## Call it from code
 
