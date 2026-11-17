@@ -112,6 +112,28 @@ Run on 2026-11-16: 25 jobs in 6.1 seconds. First twelve (full file: [sample-sear
 
 A keyword matches when all of its words are in the title, in any order, which is why "Engineer, Data Centers" is in the list. Put the words in quotes inside the entry (`"\"data engineer\""`) to match the exact phrase. About half of the Workday employers show their display name; the rest show their Workday id (`jll`, `geico`).
 
+## List of 880 Workday career sites
+
+[workday-career-sites.csv](workday-career-sites.csv) lists 880 public Workday career sites that had open jobs on 2026-11-16: company name (when known), tenant, career site URL and number of open jobs. Any URL in it can be pasted into `companies` in Option 1. Sites that hit the list cap show `2000+`. A sample:
+
+| Company | Career site | Open jobs |
+|---|---|---|
+| Lowe's | https://lowes.wd5.myworkdayjobs.com/LWS_External_CS | 2,000+ |
+| TJX | https://tjx.wd1.myworkdayjobs.com/TJX_EXTERNAL | 2,000+ |
+| Micron | https://micron.wd1.myworkdayjobs.com/External | 2,000+ |
+| NVIDIA | https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite | 2,000+ |
+| LEIDOS | https://leidos.wd5.myworkdayjobs.com/External | 2,000+ |
+| ABB | https://abb.wd3.myworkdayjobs.com/external_career_page | 2,000+ |
+| Sentara | https://sentara.wd1.myworkdayjobs.com/SCS | 2,000+ |
+| Walmart | https://walmart.wd504.myworkdayjobs.com/WalmartExternal | 2,000+ |
+| Thales | https://thales.wd3.myworkdayjobs.com/Careers | 2,000+ |
+| Petco | https://petco.wd504.myworkdayjobs.com/External | 2,000+ |
+| Sysco | https://sysco.wd5.myworkdayjobs.com/syscocareers | 2,000+ |
+| T-Mobile | https://tmobile.wd1.myworkdayjobs.com/External | 2,000+ |
+| U-Haul | https://uhaul.wd1.myworkdayjobs.com/UhaulJobs | 2,000+ |
+| Accenture | https://accenture.wd103.myworkdayjobs.com/AccentureCareers | 2,000+ |
+| HITACHI | https://hitachi.wd1.myworkdayjobs.com/hitachi | 2,000+ |
+
 ## Call it from code
 
 You need an Apify account and its API token (`APIFY_TOKEN`).
